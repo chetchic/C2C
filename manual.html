@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Corner-to-Corner Studio Manual and Dictionary</title>
+<meta name="description" content="How to design, follow, and download a corner-to-corner crochet chart in Corner-to-Corner Studio by Chet Chic." />
+<style>
+  :root {
+    --paper: #ffffff;
+    --gray: #e8e6e4;
+    --ink: #241f33;
+    --soft: #41416e;
+    --muted: #5c6178;
+    --line: #a7afc0;
+    --ice: #b1d6fe;
+    --rose: #ff0140;
+    --orange: #e58239;
+    --chartreuse: #dacd1e;
+    --navy: #41416e;
+    --teal: #078f78;
+    --burgundy: #6e2438;
+    --pink: #ffc3df;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0;
+    background: var(--gray);
+    color: var(--ink);
+    font-family: "Avenir Next", Avenir, "Gill Sans", "Trebuchet MS", sans-serif;
+    font-size: 18px;
+    line-height: 1.55;
+  }
+  a { color: var(--burgundy); }
+  a:hover { color: var(--rose); }
+  header.hero {
+    background: var(--navy);
+    color: #fff;
+    padding: 48px 20px 36px;
+  }
+  header.hero .wrap, main, footer { max-width: 920px; margin: 0 auto; }
+  .kicker { margin: 0 0 8px; letter-spacing: 0.08em; text-transform: uppercase; font-size: 13px; color: var(--chartreuse); }
+  h1 { font-family: Poppins, "Avenir Next", sans-serif; font-weight: 650; font-size: clamp(32px, 5vw, 52px); line-height: 1.05; margin: 0 0 12px; }
+  .lede { margin: 0; max-width: 40em; color: #f4f1ea; font-size: 20px; }
+  .open {
+    display: inline-block;
+    margin-top: 22px;
+    background: var(--chartreuse);
+    color: var(--navy);
+    text-decoration: none;
+    font-weight: 700;
+    padding: 12px 18px;
+    border-radius: 6px;
+  }
+  nav.toc {
+    background: #fff;
+    border-bottom: 1px solid var(--line);
+    padding: 18px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+  }
+  nav.toc .wrap { max-width: 920px; margin: 0 auto; }
+  nav.toc p { margin: 0 0 8px; font-size: 13px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--orange); font-weight: 700; }
+  nav.toc a { display: inline-block; margin: 0 14px 8px 0; color: var(--navy); text-decoration: none; font-size: 15px; }
+  nav.toc a:hover { text-decoration: underline; }
+  main { background: #fff; padding: 8px 22px 64px; }
+  section { padding-top: 28px; }
+  h2 { font-family: Poppins, "Avenir Next", sans-serif; color: var(--burgundy); font-size: 30px; line-height: 1.15; margin: 0 0 10px; }
+  h3 { color: var(--orange); font-size: 20px; margin: 26px 0 8px; }
+  p { margin: 0 0 12px; }
+  ol.steps, ul { margin: 0 0 14px; padding-left: 1.2em; }
+  li { margin: 0 0 8px; }
+  .note, .warn, .card {
+    border-radius: 8px;
+    padding: 14px 16px;
+    margin: 14px 0 18px;
+  }
+  .note { background: #f3f8ff; border-left: 5px solid var(--ice); }
+  .warn { background: #fff6ef; border-left: 5px solid var(--orange); }
+  .card { background: var(--gray); }
+  table { width: 100%; border-collapse: collapse; margin: 8px 0 18px; font-size: 16px; }
+  th, td { text-align: left; vertical-align: top; border-bottom: 1px solid var(--line); padding: 10px 8px; }
+  th { color: var(--navy); font-size: 14px; letter-spacing: 0.04em; text-transform: uppercase; }
+  kbd {
+    font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+    background: var(--gray);
+    border: 1px solid var(--line);
+    border-bottom-width: 2px;
+    border-radius: 4px;
+    padding: 0 6px;
+    font-size: 0.9em;
+  }
+  dt { font-weight: 700; color: var(--navy); margin-top: 14px; }
+  dd { margin: 4px 0 0; }
+  footer { padding: 28px 22px 48px; color: var(--muted); font-size: 15px; }
+  @media (max-width: 640px) {
+    body { font-size: 17px; }
+    nav.toc { position: static; }
+    th, td { display: block; width: 100%; }
+    th { padding-bottom: 0; }
+  }
+</style>
+</head>
+<body>
+<header class="hero">
+  <div class="wrap">
+    <p class="kicker">Chet Chic · How-to manual and dictionary</p>
+    <h1>Corner-to-Corner Studio</h1>
+    <p class="lede">Design a corner-to-corner graph, follow the diagonal while you crochet, and download a pattern. This page is the full guide.</p>
+    <a class="open" href="https://c2cstudio.chetchic.com">Open the studio</a>
+  </div>
+</header>
+<nav class="toc" aria-label="On this page">
+  <div class="wrap">
+    <p>Contents</p>
+    <a href="#start">Start here</a>
+    <a href="#access">Sign-in and membership</a>
+    <a href="#screen">The screen</a>
+    <a href="#design">Design a chart</a>
+    <a href="#yarn">Yarn colors</a>
+    <a href="#templates">Templates and photos</a>
+    <a href="#size">Size and gauge</a>
+    <a href="#project">Project mode</a>
+    <a href="#text">Written pattern</a>
+    <a href="#download">Downloads</a>
+    <a href="#save">Save and share</a>
+    <a href="#phone">Phone</a>
+    <a href="#keys">Shortcuts</a>
+    <a href="#dictionary">Dictionary</a>
+    <a href="#trouble">If something looks wrong</a>
+  </div>
+</nav>
+<main>
+  <section id="start">
+    <h2>Start here</h2>
+    <p>Corner-to-corner crochet, usually called C2C, is worked in little squares called blocks. You begin in one corner and grow the fabric on the diagonal. Each new row is one block longer until the chart is as wide as you want. Then the rows get shorter until the opposite corner is closed.</p>
+    <p>Corner-to-Corner Studio is a browser app made by Chet Chic. A free Chet Chic member account is required, and you open the studio from your member page on chetchic.com. The chart stays in this browser until you download it or copy a share link.</p>
+    <ol class="steps">
+      <li>Sign in on <a href="https://www.chetchic.com">chetchic.com</a> and press the button that opens C2C Studio. See <a href="#access">Sign-in and membership</a>.</li>
+      <li>The Chet Chic logo chart is the starter design. Replace it whenever you like.</li>
+      <li>Use the three tabs: <strong>Chart</strong>, <strong>Options</strong>, and <strong>C2C Text</strong>. The active tab is marked with a chartreuse underline.</li>
+      <li>Type a name in the chart title field, on the Chart tab, next to Project and Design. That name is used on downloads.</li>
+    </ol>
+    <div class="note">
+      <strong>Work is saved on this device.</strong> Close the tab and come back, and the same chart should still be there. A private window, a different phone, or a cleared browser will not have it. Use Export project if the chart matters.
+    </div>
+  </section>
+
+  <section id="access">
+    <h2>Sign-in and membership</h2>
+    <p>C2C Studio is for Chet Chic members. Signing in happens on chetchic.com, never inside the studio.</p>
+    <ol class="steps">
+      <li>Sign in (or join) on <a href="https://www.chetchic.com">chetchic.com</a> and choose a plan: <strong>Friends of Chet Chic</strong> (free) or the <strong>Haute Pass</strong>.</li>
+      <li>On your member page, press the button that opens C2C Studio. The studio opens already signed in. The sign-in link works once and only for a few minutes.</li>
+      <li>The studio remembers you on this device for 24 hours and checks your membership again each time it opens. After that, open it again from chetchic.com.</li>
+    </ol>
+    <p>If you open the studio any other way, you see the screen <strong>Sign in on chetchic.com to use C2C Studio</strong> with a <strong>Go to chetchic.com</strong> button. An old or changed link shows <strong>That sign-in link has expired or is not valid.</strong> Open the studio again from chetchic.com.</p>
+    <p>If you are signed in but have no plan yet, the member page tells you to choose one, and the studio shows <strong>Choose a free or Haute Pass plan on chetchic.com to use C2C Studio</strong> with a <strong>Choose a plan</strong> button. The Friends of Chet Chic plan is free.</p>
+    <h3>Tiers</h3>
+    <p>Your tier is shown under <strong>custom app created by Chet Chic</strong> at the top left.</p>
+    <table>
+      <thead><tr><th>Feature</th><th>Friends of Chet Chic (free)</th><th>Haute Pass</th></tr></thead>
+      <tbody>
+        <tr><td>Upload your own image</td><td>One demo photo per member, counted by chetchic.com</td><td>Unlimited</td></tr>
+        <tr><td>Templates</td><td>10 designs, changing every Monday</td><td>All templates, including Chet Chic designs</td></tr>
+        <tr><td>Chart preview</td><td>Shows the soft “Chet Chic Demo · chetchic.com” watermark</td><td>Clean</td></tr>
+        <tr><td>Downloads (Chart, Save Image As, Full pattern, snapshots)</td><td>Half resolution, with the watermark and a demo footer</td><td>Full resolution, no watermark</td></tr>
+        <tr><td>Drawing tools, Add text, mirror and rotate, written pattern, Project mode</td><td>Yes</td><td>Yes</td></tr>
+      </tbody>
+    </table>
+    <p>On the free tier, <strong>Get the Haute Pass</strong> beside the tier opens chetchic.com. When your demo photo is used, the photo window says <strong>Your free demo photo has been used.</strong> After you buy the Haute Pass, open the studio again from chetchic.com and the new tier is used.</p>
+  </section>
+
+  <section id="screen">
+    <h2>The screen</h2>
+    <h3>Top bar</h3>
+    <ul>
+      <li><strong>?</strong> turns on help. The note says “Help is on. Click any section for a note from the manual. Press ? again to leave.” Click any button or panel to read its part of this guide.</li>
+      <li>Your tier (<strong>Friends of Chet Chic · Free</strong> or <strong>✦ Haute Pass</strong>) sits under the Chet Chic name. See <a href="#access">Sign-in and membership</a>.</li>
+      <li><strong>Undo</strong> and <strong>Redo</strong> step through the last edits. The last 50 steps are kept, including after you reload the page.</li>
+      <li><strong>Clear</strong> depends on the tab you are on. On Chart, it paints every square back to background Z. On C2C Text, it clears yarn brand, hook, and yarn weight. On Options the button is named <strong>Reset options</strong>; it resets columns and rows, starting corner, block stitch, and snapshots. It asks first. You can undo it.</li>
+    </ul>
+    <h3>Three tabs</h3>
+    <table>
+      <thead><tr><th>Tab</th><th>Use it for</th></tr></thead>
+      <tbody>
+        <tr><td>Chart</td><td>Drawing tools, Add text, Flip H, Flip V, Left 90°, Right 90°, Save Image As, yarn colors, zoom, Project or Design, and the graph itself.</td></tr>
+        <tr><td>Options</td><td>Templates, columns and rows, stitch style, finished size, starting corner, snapshots, and project files.</td></tr>
+        <tr><td>C2C Text</td><td>Yarn brand, hook, block gauge, written diagonal rows, and downloads.</td></tr>
+      </tbody>
+    </table>
+    <p>On a phone, the chart stays on top. Tools and colors sit below it, with the tools in one strip you swipe sideways, so the graph has most of the screen.</p>
+  </section>
+
+  <section id="design">
+    <h2>Design a chart</h2>
+    <p>Stay on the Chart tab. <strong>Design</strong> is for drawing. <strong>Project</strong> is for following a row. The active side of that switch is filled chartreuse.</p>
+    <h3>Chart tools</h3>
+    <p>The label <strong>Chart Tools</strong> is orange. The tool you are using is chartreuse. While the pointer is over a square, it changes to that tool. A short note under the tools tells you what the tool does.</p>
+    <table>
+      <thead><tr><th>Tool</th><th>What it does</th></tr></thead>
+      <tbody>
+        <tr><td>Paint</td><td>Colors one square with the selected yarn. Drag to keep painting. A fast drag still fills every square along the line.</td></tr>
+        <tr><td>Fill</td><td>Replaces a whole connected area of one color.</td></tr>
+        <tr><td>Pick</td><td>Copies the yarn color from the square you click, so you can paint with it.</td></tr>
+        <tr><td>Erase</td><td>Sets squares back to background Z. Drag works the same way as Paint.</td></tr>
+        <tr><td>Move</td><td>Drags the chart so you can see another part of a large graph. It does not recolor squares.</td></tr>
+        <tr><td>Add text</td><td>Type a word, pick a yarn color and a letter height, then tap the chart. A preview appears first. Press <strong>Place text</strong> to keep it. See <a href="#addtext">Add text and Size</a>.</td></tr>
+      </tbody>
+    </table>
+    <h3 id="xform">Mirror and rotate</h3>
+    <p>Beside the Chart Tools, behind a thin divider, is a separate group of four buttons. Each one changes the design inside the chart. The number of columns and rows never changes. Each press is one step you can undo.</p>
+    <table>
+      <thead><tr><th>Button</th><th>What it does</th></tr></thead>
+      <tbody>
+        <tr><td>Flip H</td><td>Mirrors the design left to right. Press it twice to get the original back.</td></tr>
+        <tr><td>Flip V</td><td>Mirrors the design top to bottom.</td></tr>
+        <tr><td>Left 90°</td><td>Turns the design a quarter turn counterclockwise.</td></tr>
+        <tr><td>Right 90°</td><td>Turns the design a quarter turn clockwise. Four presses bring a square chart back to the start.</td></tr>
+      </tbody>
+    </table>
+    <p>On a square chart the squares simply turn. On a chart that is wider than it is tall (or taller than wide), a turned design cannot fit exactly:</p>
+    <ul>
+      <li>If the chart came straight from <strong>Upload your own image</strong> and you have not painted on it, the studio turns the photo and makes the chart again at the same size. Nothing is cut off.</li>
+      <li>Otherwise the design turns around the middle of the chart. Parts that fall outside are cut off and empty space becomes background Z. Undo if you do not like it.</li>
+    </ul>
+    <p>The Options tab still has <strong>Rotate 90°</strong>, which turns the whole chart and swaps columns and rows.</p>
+    <h3 id="addtext">Add text and Size</h3>
+    <ol class="steps">
+      <li>Choose <strong>Add text</strong> (or press T). A text box and a <strong>Size</strong> menu appear.</li>
+      <li>Type the word. Letters are block letters: A to Z, 0 to 9, and . , ! ? ' -</li>
+      <li><strong>Size</strong> is the letter height in rows, from 5 rows to 30 rows. 7 rows is the start.</li>
+      <li>Select the yarn color under Yarn Color.</li>
+      <li>Tap the square where the top left of the word should go. A see-through preview appears. Tap another square to move it.</li>
+      <li>Press <strong>Place text</strong> (or Enter) to paint it, or <strong>Cancel</strong> (or Esc). Placed text is one step you can undo.</li>
+    </ol>
+    <h3>Zoom</h3>
+    <p><strong>Fit</strong> shows the whole chart, centered. <strong>+</strong> and <strong>−</strong> zoom from there. Zoom goes up to about 64 pixels per square, even on a 300 × 300 chart, so you can draw single squares with a finger on a phone. When zoomed in, scroll or use Move to reach other parts; a tap always colors the square under your finger. On a trackpad or mouse, hold Ctrl and scroll. On a phone, pinch to zoom and use two fingers to pan. Grid lines hide when squares are very small, and the numbers along the edges skip ahead so they stay readable. The numbers grow when you zoom in.</p>
+    <h3>How the numbers work</h3>
+    <p>The chart opens from the bottom-right corner unless you change the starting corner. Odd numbers sit on the side of the increase and decrease rows. Even numbers sit along the bottom, on every other square. Row 1 is a single block in the starting corner. The next row is the two blocks beside it, worked back the other way.</p>
+    <div class="warn">Clicking exactly on a grid line still colors the nearest square. You do not have to hit the middle of the block.</div>
+  </section>
+
+  <section id="yarn">
+    <h2>Yarn colors</h2>
+    <p>On the Chart tab, under <strong>Yarn Color</strong>, each swatch is a yarn. Letters run backward from Z. Z is always the background. If you use three colors, they are X, Y, and Z, with Z behind the picture.</p>
+    <ul>
+      <li>Click a swatch to make it the color you paint with. The selected swatch is icy blue.</li>
+      <li>Click the selected swatch again to open the color spectrum and change that yarn.</li>
+      <li><strong>Add</strong> opens a color picker and starts a new swatch in a color that is not already on the chart.</li>
+      <li><strong>Reset Palette</strong> sits beside the Yarn Color title. It asks first. Confirming it sets the whole chart back to background Z. You can undo it.</li>
+    </ul>
+    <p>You can use up to 25 yarn colors. If you have chosen yarn brands on the C2C Text tab, those brands’ published colors are offered when you add a yarn. Removing a brand takes its unused chips off the palette. A color that is already in the chart stays until you change those squares.</p>
+  </section>
+
+  <section id="templates">
+    <h2>Templates and your own photo</h2>
+    <p>On the Options tab, under <strong>Chart Options</strong>, open <strong>Charts</strong>. Each choice has a thumbnail. The one you pick stays selected until you press the X on the menu.</p>
+    <p>Below the built-in charts, <strong>Chet Chic designs</strong> lists Chet Chic's own default templates when there are any (see below).</p>
+    <p>On the free tier you see 10 templates. The 10 change every Monday and are picked from all templates, Chet Chic designs included. A note in the menu says so.</p>
+    <p>Built-in charts include Chet Chic, Heart, Chevron, Gingham, Bands, Pineapple, Palm Tree, Baddie Princess, Sunset, Moonset, Star, Spiral, Paisley Drop, Argyle, a Farm series (Highland Cow, Horse, Lamb, Farmer, Farmhouse, Rooster, Farm Sunrise), and Psychedelic 1, 2, and 3.</p>
+    <div class="warn">If the chart already has painted squares, choosing a template asks before it replaces your work. Loading a template can be undone.</div>
+    <h3>Your own default templates (for Chet Chic)</h3>
+    <p>Chet Chic can add designs to the Charts menu without changing the app.</p>
+    <ol class="steps">
+      <li>Make the chart in the studio. On the Options tab press <strong>Export project</strong>. You get a .json file.</li>
+      <li>Put the file in the <code>templates</code> folder of the GitHub repository, for example <code>templates/rose.json</code>.</li>
+      <li>Open <code>templates/index.json</code> and add a line for it, such as <code>[ { "file": "rose.json", "label": "Rose" } ]</code>. Separate several entries with commas.</li>
+      <li>Upload both files to GitHub. After a minute or two, reload the studio. The design shows under <strong>Chet Chic designs</strong>.</li>
+    </ol>
+    <p>These load like any template: if the chart has painted squares, the studio asks first, and you can undo. A file that is not an exported project is skipped.</p>
+    <h3>Upload your own image</h3>
+    <ol class="steps">
+      <li>In the Charts menu, choose <strong>Custom</strong>. The page moves to the Custom section and opens your photos. You can also press <strong>Upload your own image</strong> there, or paste a picture onto the page.</li>
+      <li>Crop and zoom the photo, and tone the color if you want a tighter palette.</li>
+      <li>The studio suggests how many squares the photo needs. Columns and rows must stay between 8 and 300.</li>
+      <li>Give the chart a title, then choose <strong>Use this graph</strong>. The Charts menu then shows your title, or Custom.</li>
+      <li>Friends of Chet Chic members get one demo photo. See <a href="#access">Sign-in and membership</a>.</li>
+    </ol>
+    <p>The photo is reduced to yarn-colored blocks on this device. It is not uploaded to Chet Chic.</p>
+  </section>
+
+  <section id="size">
+    <h2>Size, stitch, and gauge</h2>
+    <h3>On the Options tab</h3>
+    <ul>
+      <li><strong>Columns</strong> and <strong>Rows</strong> set the grid. The smallest chart is 8 by 8. The largest is 300 by 300. While you type, the box can be briefly empty. When you leave the box or press Enter, a blank or illegal number snaps back to a legal size. Under the boxes you will see the block count, such as “300 × 300 = 90,000 blocks.” A chart over 40,000 blocks warns that phones may feel slow.</li>
+      <li><strong>Stitch style</strong> is Standard C2C (chain 3, 3 double crochet) or Mini C2C (chain 2, 2 double crochet). Mini uses less yarn per block. The written pattern, gauge, and yardage follow whichever you pick.</li>
+      <li><strong>One block equals</strong> is the stitch count and the stitch, written like 3/dc. The choices are half double and double crochet. In UK terms those names switch (dc becomes tr, hdc becomes htr).</li>
+      <li><strong>Inches</strong> or <strong>Centimeters</strong> changes every size on the page.</li>
+      <li><strong>Size for</strong> can set Lovey (12 × 12 in), Baby blanket (30 × 36), Throw (50 × 60), Twin (66 × 90), Full/Queen (90 × 90), King (108 × 90), or a custom width and height. The studio turns that size into columns and rows from your gauge. If art is already on the chart, it asks before it crops or pads the design.</li>
+      <li><strong>Finished size</strong> updates as soon as gauge is known.</li>
+    </ul>
+    <h3>Starting corner and direction</h3>
+    <p>Under <strong>Diagonal rows</strong>, pick Bottom right (the default), Bottom left, Top right, or Top left. The numbers, the written rows, the arrows, the row tracker, and the PDF all follow that corner. Odd rows and even rows travel in opposite directions.</p>
+    <p><strong>Flip horizontal</strong>, <strong>Flip vertical</strong>, and <strong>Rotate 90°</strong> change the picture. Rotate 90° turns the whole chart, so columns and rows swap. To turn only the design and keep the size, use Left 90° or Right 90° on the Chart tab. Each one can be undone. <strong>Left-handed</strong> does not move the picture. It mirrors the written directions so the words match a left-handed hook.</p>
+    <h3>Check my chart</h3>
+    <p><strong>Check my chart</strong> counts stray single blocks (a square with no same-color neighbor), names the row with the most color changes, and estimates how many yarn ends you will weave in. <strong>Remove stray blocks</strong> recolors each stray square to the color of its most common neighbor. Look at the before and after, then undo if you do not want it.</p>
+    <h3>Block gauge, on the C2C Text tab</h3>
+    <p>The heading is <strong>Block gauge (optional)</strong>. C2C is not measured in single crochet stitches. It is measured in blocks.</p>
+    <ol class="steps">
+      <li>Make a C2C swatch in the yarn and hook you will use. Block it.</li>
+      <li>Count the blocks across the middle of a length you choose. The length starts at 4 inches (10 cm). You can use 1 to 12 inches, including decimals.</li>
+      <li>Type the block count and the length. Gauge is blocks divided by that length.</li>
+      <li>If the blocks are not square, tick <strong>My blocks are not perfectly square.</strong> and fill Width and Height separately. The settings scroll inside their own area; the written rows stay visible below.</li>
+    </ol>
+    <p>If you have not measured a swatch, the studio can pre-fill a typical block count for the yarn weight and hook you chose. The line <strong>Based on typical gauge</strong> means you have not replaced that guess. Your own swatch is more trustworthy. The <strong>?</strong> beside the heading explains why C2C uses block gauge instead of stitch-and-row gauge.</p>
+    <p>Choose a yarn brand and a hook before you trust yardage. Yarn weight fills in from that brand’s label. You can still change the weight by hand.</p>
+  </section>
+
+  <section id="project">
+    <h2>Project mode, while you crochet</h2>
+    <p>On the Chart tab, set the switch to <strong>Project</strong>. The chart stays up. A row tracker sits under it. Drag the grip bar between them to give more room to the chart or more room to the instructions. Double-click the grip to return to the usual split. The chart never shrinks below about 40 percent of that area, and the current row plus Previous, Next, and Done stay visible.</p>
+    <ol class="steps">
+      <li>The tracker starts at row 1. That diagonal is outlined on the chart.</li>
+      <li>Read the bar: the row number, how many blocks are in it, whether the row increases or decreases, and the color runs, such as “5 Cream, 2 Navy, 5 Cream.”</li>
+      <li>The active square has a dark outer edge and a yellow inner edge. The written line below the chart marks that same block.</li>
+      <li><strong>Previous</strong> and <strong>Next</strong> move one row. <strong>Go to row</strong> jumps. On the C2C Text tab, the same row is highlighted. Tap any written row there to make it the current row.</li>
+      <li><strong>Mark row done</strong> dims that row and steps to the next one. <strong>Undo done</strong> takes back the last mark. Finished rows fade. Turn on <strong>Dim upcoming rows</strong> if you would rather fade what you have not stitched yet.</li>
+      <li>The progress line shows rows done, the percent, and blocks done out of the total.</li>
+      <li>Corner rows are labeled, including the last increase row and the first decrease row. The bar also says right side or wrong side, matching the written pattern.</li>
+      <li>Double-click a square to pin that diagonal. The row is outlined in bright teal, the direction arrow lies across it at half strength, and the title row says “Row 12 is pinned.” Press <strong>UNPIN</strong> to let go. A pinned row is the whole diagonal, not one square.</li>
+      <li><strong>Reset progress</strong> asks, then returns you to row 1 and clears the done marks.</li>
+    </ol>
+    <p>On a phone, the tracker buttons are at least 44 pixels tall. Where the browser allows it, the screen stays awake while Project mode is open.</p>
+    <div class="note">Progress is saved with the chart on this device. Leave and come back, and the current row and the done rows are still there.</div>
+  </section>
+
+  <section id="text">
+    <h2>The written pattern</h2>
+    <p>Open <strong>C2C Text</strong>. Every diagonal is listed: row number, direction, side, block count, and color runs. Increase, straight, and decrease sections are marked. A long chart does not draw every row at once. Scroll, and the rows you are looking at are filled in.</p>
+    <h3>Yarn you will actually buy</h3>
+    <ol class="steps">
+      <li>Search <strong>Yarn brands</strong>. The catalog includes labels sold at Michaels and other shops: Red Heart, Bernat, Caron, Lion Brand, Loops & Threads, Patons, Yarnspirations, and more.</li>
+      <li>Choose up to three brands. Each chip shows fiber, yards, grams, weight, and the hook on the label. <strong>Clear</strong> removes that brand.</li>
+      <li>Set <strong>US terms</strong> or <strong>UK terms</strong>. Names change everywhere, including the text file and the PDF: dc and tr, hdc and htr, sc and dc.</li>
+    </ol>
+    <p>Color totals then show yards, grams, and how many skeins to buy. The skein count uses that brand’s yardage and includes 10 percent extra. The note on the page says color-change tails are extra. That extra is for the project, not for every tail you leave at a color change.</p>
+  </section>
+
+  <section id="download">
+    <h2>Downloads</h2>
+    <p>Files are named from the chart title. “Sunset Blanket” becomes a file like <code>sunset-blanket</code>. On the C2C Text tab:</p>
+    <table>
+      <thead><tr><th>Button</th><th>What you get</th></tr></thead>
+      <tbody>
+        <tr><td>Copy text</td><td>The full written pattern on your clipboard.</td></tr>
+        <tr><td>Text only</td><td>A text file of those rows.</td></tr>
+        <tr><td>Chart</td><td>The graph as a picture.</td></tr>
+        <tr><td>Full pattern</td><td>A printable PDF on US Letter pages.</td></tr>
+      </tbody>
+    </table>
+    <p>The PDF is a pattern, not only a screenshot.</p>
+    <ul>
+      <li>Page 1: the title, chart size in blocks, total blocks, starting corner, block stitch, a picture of the whole chart, and a color key with each yarn's letter, name, color code, and how many blocks use it.</li>
+      <li>The chart split across pages so each square stays readable, with the same row and column numbers as the studio and a map such as “Chart part 2 of 4 · columns 1–40, rows 41–80.”</li>
+      <li>Every written row with its color runs.</li>
+      <li>A page number on every page.</li>
+      <li>On the free tier, pictures are lower resolution and every page carries the watermark and a demo footer.</li>
+    </ul>
+    <p>If a download does not start on its own, a box appears with the file name and a Download button. Use that button. On a phone, the file lands in the Files app or the Downloads folder, depending on the browser.</p>
+    <p>On the Chart tab, <strong>Save Image As</strong> can write PNG, JPEG, or TIFF. On the free tier every picture download is half size with the watermark. JPEG uses a white background because JPEG cannot be transparent. The same Save Image As button sits on each snapshot.</p>
+  </section>
+
+  <section id="save">
+    <h2>Snapshots, backup, and sharing</h2>
+    <h3>Snapshots</h3>
+    <p>You have three snapshot slots. In Design mode, press the camera labeled <strong>Take Snapshot</strong>. The same control is under Snapshots on the Options tab, marked 1 of 3, then 2 of 3, then 3 of 3. Each filled slot shows a thumbnail and a filename you can edit.</p>
+    <p>When all three are full, the next snapshot asks which of the three to replace, or you can cancel. Under each thumbnail, left to right: <strong>Save Image As</strong>, <strong>Replace Chart</strong>, and the trash icon. Replace Chart loads that snapshot back onto the graph. Trash deletes the slot. Deleting asks first.</p>
+    <h3>A copy you can move</h3>
+    <ul>
+      <li><strong>Export project</strong> downloads a .json file with the chart, the palette, the settings, and the row progress.</li>
+      <li><strong>Import project</strong> opens that file on this or another device. The same file can become one of the Chet Chic designs templates (see <a href="#templates">Templates</a>).</li>
+      <li><strong>Copy share link</strong> puts the chart in a link. Someone who opens it gets their own copy. Your original stays where it is.</li>
+    </ul>
+    <p>On the Options tab, the share icon at the right of the header can add Corner-to-Corner Studio to your home screen or desktop, using the Chet Chic icon. After that, it opens like an app. You still need the internet the first time the page loads.</p>
+  </section>
+
+  <section id="phone">
+    <h2>On a phone</h2>
+    <ul>
+      <li>The header wraps onto two lines: the Chet Chic name, then Undo, Redo, and Clear.</li>
+      <li>The chart is first, right under the tabs. Under it, the Chart Tools and the Flip H, Flip V, Left 90°, and Right 90° buttons sit in one strip. Swipe the strip sideways to reach the rest. Yarn Color and Mode follow. Buttons are large enough to tap.</li>
+      <li>Zoom in with <strong>+</strong> until the squares are big enough for a fingertip, then drag with <strong>Move</strong> or scroll to reach other parts.</li>
+      <li>The page does not slide sideways. If it does, you are zoomed into the browser, not the chart. Use Fit.</li>
+      <li>Pinch to zoom the chart. Two fingers pan it.</li>
+      <li>Until the security certificate for c2cstudio.chetchic.com is finished, a phone may refuse the https address. Type <code>http://c2cstudio.chetchic.com</code> and continue, or wait until Enforce HTTPS is available on the GitHub Pages screen.</li>
+    </ul>
+  </section>
+
+  <section id="keys">
+    <h2>Keyboard shortcuts</h2>
+    <p>These work when you are not typing in a text box.</p>
+    <table>
+      <thead><tr><th>Key</th><th>Action</th></tr></thead>
+      <tbody>
+        <tr><td><kbd>B</kbd></td><td>Paint</td></tr>
+        <tr><td><kbd>G</kbd></td><td>Fill</td></tr>
+        <tr><td><kbd>I</kbd></td><td>Pick</td></tr>
+        <tr><td><kbd>E</kbd></td><td>Erase</td></tr>
+        <tr><td><kbd>H</kbd></td><td>Move</td></tr>
+        <tr><td><kbd>T</kbd></td><td>Add text</td></tr>
+        <tr><td><kbd>Enter</kbd> and <kbd>Esc</kbd></td><td>Place text and Cancel, while a text preview is showing</td></tr>
+        <tr><td><kbd>F</kbd></td><td>Project mode</td></tr>
+        <tr><td><kbd>[</kbd> and <kbd>]</kbd></td><td>Previous and next yarn color</td></tr>
+        <tr><td><kbd>Ctrl</kbd> <kbd>Z</kbd> or <kbd>Cmd</kbd> <kbd>Z</kbd></td><td>Undo</td></tr>
+        <tr><td><kbd>Shift</kbd> with undo</td><td>Redo</td></tr>
+        <tr><td><kbd>Ctrl</kbd> and scroll</td><td>Zoom the chart</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="dictionary">
+    <h2>Dictionary</h2>
+    <dl>
+      <dt>Block</dt>
+      <dd>One square on the chart. In standard C2C that square is a chain 3 and three double crochets. In mini C2C it is a chain 2 and two double crochets. The Options tab can also say one block equals a number of half doubles or doubles.</dd>
+      <dt>Diagonal row</dt>
+      <dd>One pass of the hook from one side of the growing fabric to the other. Row 1 is a single block. Each increase row is one block longer. These are not the same as the horizontal rows of a normal scarf.</dd>
+      <dt>Starting corner</dt>
+      <dd>The corner where row 1 sits. Bottom right is the studio default. The other three corners are on the Options tab. Changing it rewrites the row directions.</dd>
+      <dt>Increase row</dt>
+      <dd>A diagonal that adds a block at the start, so the fabric grows. The last increase row is marked in Project mode and in the PDF.</dd>
+      <dt>Decrease row</dt>
+      <dd>A diagonal that slips the new block and closes the edge, so the fabric shrinks toward the far corner.</dd>
+      <dt>Right side and wrong side</dt>
+      <dd>Which face of the fabric is toward you on that diagonal. Odd and even rows alternate. The tracker and the written pattern name the side.</dd>
+      <dt>Background Z</dt>
+      <dd>Yarn letter Z. Empty squares, erased squares, and a reset palette are all Z. New colors are Y, then X, then W, walking backward through the alphabet.</dd>
+      <dt>Color run</dt>
+      <dd>A count of neighboring blocks in one yarn, such as “5 Cream.” A row is a sequence of runs. More runs means more ends to weave in.</dd>
+      <dt>Block gauge</dt>
+      <dd>How many C2C blocks fit in a measured length, taken in the middle of a blocked swatch. Example: 8 blocks = 4 inches. This is not the “16 stitches and 8 rows” gauge used on a regular fabric pattern.</dd>
+      <dt>Typical gauge</dt>
+      <dd>A starting guess from the yarn weight, hook, and block stitch. The studio says “Based on typical gauge” until you type your own swatch.</dd>
+      <dt>Skein</dt>
+      <dd>One put-up of yarn, using the yards and grams printed for the brand you chose. The buy count adds 10 percent. Tails from color changes are not inside that 10 percent.</dd>
+      <dt>Project mode</dt>
+      <dd>The follow-along view. The current diagonal, the written runs, done rows, and progress stay together.</dd>
+      <dt>Design mode</dt>
+      <dd>The drawing view. Paint, fill, text, and snapshots are used here.</dd>
+      <dt>Pin</dt>
+      <dd>A double-click in Project mode that holds one diagonal in teal and shows the direction arrow until you press UNPIN.</dd>
+      <dt>Snapshot</dt>
+      <dd>One of three saved pictures of the chart, with a name. Not the same as Export project. A snapshot is a picture you can reopen. A project file keeps settings and progress too.</dd>
+      <dt>Stray block</dt>
+      <dd>A square whose four neighbors are all a different color. Often a mis-click. Check my chart can recolor it to match the surrounding yarn.</dd>
+      <dt>Left-handed</dt>
+      <dd>A switch that mirrors the words, not the drawing, so the direction of each row matches a left-handed maker.</dd>
+      <dt>US terms and UK terms</dt>
+      <dd>Two names for the same stitch. US double crochet is UK treble. US half double is UK half treble. US single crochet is UK double crochet. Pick one and the pattern stays in that language.</dd>
+      <dt>Mini C2C</dt>
+      <dd>The smaller block: chain 2, then 2 double crochet. The fabric is tighter and uses less yarn per square than standard C2C.</dd>
+      <dt>Haute Pass</dt>
+      <dd>The paid Chet Chic plan. Unlimited photos, every template, and clean full-resolution downloads.</dd>
+      <dt>Friends of Chet Chic</dt>
+      <dd>The free Chet Chic plan. Choose it on chetchic.com to use the studio: one demo photo, 10 rotating templates, and watermarked downloads.</dd>
+      <dt>Standard C2C</dt>
+      <dd>The usual block: chain 3, then 3 double crochet, or the stitch count you type under One block equals.</dd>
+    </dl>
+  </section>
+
+  <section id="trouble">
+    <h2>If something looks wrong</h2>
+    <ul>
+      <li><strong>The page is blank on a phone.</strong> The certificate may still be processing. Open <code>http://c2cstudio.chetchic.com</code> or wait until Enforce HTTPS can be turned on.</li>
+      <li><strong>A download seems to do nothing.</strong> Wait for the small window that names the file, then press Download. Some browsers block a file that tries to save itself.</li>
+      <li><strong>The chart looks tiny or off to one side.</strong> Press Fit. Resizing the window, or the Project-mode divider, fits the chart again.</li>
+      <li><strong>I changed columns and the picture was cut off.</strong> Shrinking the grid keeps the corner and crops the rest. Undo immediately if that was a mistake.</li>
+      <li><strong>Yardage says it cannot be calculated.</strong> Choose a yarn brand and a hook size on C2C Text. Weight fills from the label. Then check block gauge.</li>
+      <li><strong>The palette reset wiped my drawing.</strong> Undo. Reset Palette is meant to return every square to Z.</li>
+      <li><strong>My other computer does not have the chart.</strong> The chart lives in this browser. Export project, or copy a share link.</li>
+      <li><strong>I see “Choose a free or Haute Pass plan on chetchic.com to use C2C Studio”.</strong> Your account has no active plan. Choose Friends of Chet Chic (free) or the Haute Pass on chetchic.com, then open the studio again from your member page.</li>
+      <li><strong>I see “Sign in on chetchic.com to use C2C Studio”.</strong> Your sign-in was not found or is more than 24 hours old. Press Go to chetchic.com, sign in, and open the studio from your member page.</li>
+      <li><strong>The photo window says my free demo photo has been used.</strong> The free tier includes one photo. The Haute Pass allows unlimited photos. Templates and drawing still work.</li>
+      <li><strong>Reset options also emptied my snapshots.</strong> Reset options returns size, starting corner, block stitch, and the three snapshot slots to the start. Undo right away to get them back.</li>
+      <li><strong>Undo stopped after a huge chart.</strong> Very large graphs keep a shorter history so the browser does not run out of space. Export before a risky edit.</li>
+    </ul>
+    <div class="card">
+      <p>A first chart, in order: open the studio, name it, choose a template or upload a photo, set the starting corner, pick Standard or Mini, choose a yarn brand and hook, enter a block gauge, read the finished size, then switch to Project and stitch row 1. Download the full pattern when the graph is finished.</p>
+    </div>
+  </section>
+</main>
+<footer>
+  <p>Corner-to-Corner Studio is a custom app by Chet Chic. Open it at <a href="https://c2cstudio.chetchic.com">c2cstudio.chetchic.com</a>.</p>
+</footer>
+</body>
+</html>
